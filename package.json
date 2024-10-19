@@ -1,10 +1,10 @@
 {
   "name": "blog.oucc.org",
   "version": "1.0.0",
-  "description": "", 
+  "description": "",
   "type": "module",
-  "scripts": { 
-    "build":"node esbuild.mjs"
+  "scripts": {
+    "build": "node esbuild.mjs"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
   "devDependencies": {
     "esbuild": "^0.24.0",
     "prettier": "^3.3.3",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "wrangler": "^3.81.0"
   },
   "dependencies": {
     "hono": "^4.6.5"
