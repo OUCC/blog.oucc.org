@@ -1,0 +1,46 @@
+{
+  // https://www.typescriptlang.org/ja/tsconfig/
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023"],
+    "noEmit": true,
+
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    // _から始まれば対象外になる
+    "noUnusedParameters": true,
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+
+    // Modules
+    "resolveJsonModule": true,
+
+    // Interop Constraints
+    "forceConsistentCasingInFileNames": true,
+    // デフォルトではJSを許さない
+    "allowJs": false,
+    "esModuleInterop": true,
+    // 基本的にviteやesbuildなどのバンドラーを使用するためtrue
+    "isolatedModules": true,
+
+    // Language and Environment
+    "useDefineForClassFields": true,
+
+    // Completeness
+    "skipLibCheck": true,
+
+    "types": []
+  }
+}
