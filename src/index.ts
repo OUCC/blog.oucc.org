@@ -1,6 +1,8 @@
 import { Hono } from "hono";
 
-const app = new Hono()
+const app = new Hono({
+  strict: false,
+})
   .get("/archives/:id", (c) => {
     return c.redirect(`https://oucc.org/blog/articles/${c.req.param("id")}`);
   })

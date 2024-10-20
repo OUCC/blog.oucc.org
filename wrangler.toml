@@ -1,6 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "blog-redirector"
-main = "dist/index.js"
+name = "blog-oucc-org"
 compatibility_date = "2024-10-11"
 compatibility_flags = ["nodejs_compat"]
 
