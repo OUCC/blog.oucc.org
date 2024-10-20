@@ -1,10 +1,10 @@
 {
   // https://www.typescriptlang.org/ja/tsconfig/
   "compilerOptions": {
-    "target": "ES2023",
-    "module": "ES2022",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "Bundler",
-    "lib": ["ES2023"],
+    "lib": ["ESNext"],
     "noEmit": true,
 
     // Type Checking
