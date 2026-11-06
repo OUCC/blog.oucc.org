@@ -5,3 +5,7 @@ compatibility_date = "2026-11-06"
 compatibility_flags = []
 tsconfig = "./tsconfig.json"
 workers_dev = false
+
+[[routes]]
+pattern = "blog.oucc.org"
+custom_domain = true
