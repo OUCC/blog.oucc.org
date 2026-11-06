@@ -1,5 +1,7 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "blog-oucc-org"
-pages_build_output_dir = "./dist"
-compatibility_date = "2024-10-20"
-compatibility_flags = [ "nodejs_compat" ]
+name = "blog-oucc-org-redirector"
+main = "./src/index.ts"
+compatibility_date = "2026-11-06"
+compatibility_flags = []
+tsconfig = "./tsconfig.json"
+workers_dev = false
